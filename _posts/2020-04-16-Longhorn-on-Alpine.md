@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Alpine is not officially supported for Longhorn, but after digging through some old issues on GitHub and getting pointers to some others from the awesome folks on the official Slack, it wasn't hard to get working at all.
 
@@ -21,6 +21,7 @@ I figured I'd document it since, in all my searching at least, this information 
 
 * ### put script in local with .start extension
 
+
     k3snode-a1:~# cat /etc/local.d/rshared.start
     
     #!/bin/bash
@@ -28,6 +29,7 @@ I figured I'd document it since, in all my searching at least, this information 
     mount --make-rshared /
     
     k3snode-a1:~#
+
 
     The .start extension is the important part here.  That was fun to troubleshoot.
 Obbiously if you're using a bash script like this, you need bash - apk update && apk install bash
