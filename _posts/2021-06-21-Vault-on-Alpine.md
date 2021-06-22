@@ -9,7 +9,7 @@ I figured out how to disable mlock and it started fine, but then it was bugging 
 
 Like with most things with Alpine, there is VERY little out there, and most of it has to do with people running it in containers ... fortunately that advice is often directly applicable to running it as a full VM OS.
 
-This wonderful github issue comment here - https://github.com/hashicorp/docker-vault/issues/137#issuecomment-624440266 - explained the following -
+This wonderful github issue comment here - [https://github.com/hashicorp/docker-vault/issues/137#issuecomment-624440266](https://github.com/hashicorp/docker-vault/issues/137#issuecomment-624440266) - explained the following -
 
 ---
 
