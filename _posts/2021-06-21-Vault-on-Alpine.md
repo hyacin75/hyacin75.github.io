@@ -3,7 +3,7 @@ published: true
 ---
 Vault exists in Alpine's apk repo (probably the community one), but with the aim of that version being small, like Alpine, it has no UI.  As I'm only just learning Vault and hoping to get the certification shortly, having and knowing the UI was non-negotiable, so I downloaded the latest x64 Vault binary and overwrote it.
 
-THEN, it would start ... something about mlock.
+THEN, it wouldn't start ... something about mlock.
 
 I figured out how to disable mlock and it started fine, but then it was bugging me that that is a very not recommended configuration, so I started to do some digging.
 
