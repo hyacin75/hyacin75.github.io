@@ -1,3 +1,8 @@
+---
+layout: post
+title: GPU on Microk8s on Ubuntu on Proxmox
+---
+
 Well I think the title says it all, doesn't it?
 
 I was trying not just to pass a GPU through Proxmox to a guest,
